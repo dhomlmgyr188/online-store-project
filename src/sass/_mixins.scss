@@ -1,0 +1,19 @@
+@use "sass:color";
+@use './colors' as *;
+
+@mixin button-outline-style($color, $color-background){
+    background: $color-background;
+    border-color: $color;
+    color: $color;
+    transition: all 0.3s ease;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &:active:focus,
+    &:active:hover{
+        background: $color-background;
+        border-color: color.adjust($color, $lightness: -20%);
+        color: color.adjust($color, $lightness: -20%);
+    }
+}

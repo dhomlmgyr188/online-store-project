@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر | تي شيرت لاكوست طراز فاخر</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <!-- بداية القائمة العلوية -->
+        <div class="row">
+            <nav class="navbar custom-navbar navbar-expand-lg">
+                <div class="container px-0">
+                    <div class="navbar-header">
+                        <button class="navbar-toggler btn btn-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars fa-xl"></i>    
+                        </button>
+                        <a href="./checkout.html" class="btn btn-icon d-lg-none">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <a href="./index.html" class="me-5">
+                            <img src="./images/logo.png" alt="شعار الموقع">
+                        </a>
+                    </div>
+                    <form action="#" class="custom-nav-form d-flex">
+                        <input type="search" class="form-control custom-form-control" placeholder="ابحث هنا ....">
+                        <div class="dropdown">
+                            <a href="#" class="nav-link dropdown-toggle custom-btn categories" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">انقر للفتح</a>
+                            <ul class="dropdown-menu custom-dropdown-menu">
+                                <li>
+                                    <div class="checkbox ms-2">
+                                        <label>
+                                            <input type="checkbox" name="search-category" value="men">
+                                            رجالي
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="checkbox ms-2">
+                                        <label>
+                                            <input type="checkbox" name="search-category" value="women">
+                                            نسائي
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="checkbox ms-2">
+                                        <label>
+                                            <input type="checkbox" name="search-category" value="kidds">
+                                            أطفال
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <button type="submit" class="btn search-btn">ابحث</button>
+                    </form> 
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="./index.html" class="nav-link"">الرئيسية</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="" class="nav-link dropdown-toggle" role="button" 
+                                data-bs-toggle="dropdown" aria-expanded="false">أقسام المتجر</a>
+                                <ul class="dropdown-menu custom-dropdown-menu">
+                                    <li>
+                                        <a href="#" class="dropdown-item">رجالي</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">نسائي</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">أطفال</a>
+                                    </li>
+                                </ul>    
+                            </li>
+                            <li class="nav-item">
+                                <a href="./search.html" class="nav-link">البحث المتقدم</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./contact.html" class="nav-link">تواصل معنا</a>
+                            </li>
+                            <li class="mt-2">
+                                <a href="./checkout.html" class="btn btn-icon d-none d-lg-block" id="btn-shopping-cart" 
+                                    title="عربة الشراء" data-bs-toggle="tooltip" data-bs-placement="bottom">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- نهاية القائمة العلوية -->
+
+        <!-- start breadcrumb -->
+        <div class="container">
+            <div class="row">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb custom-breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="./index.html">الصفحة الرئيسية</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#">ملابس رجالي</a>
+                        </li>
+                        <li class="breadcrumb-item active">
+                            تي شيرت لاكوست طراز فاخر
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- end breadcrumb -->
+
+        <!-- بداية قسم تصفح المنتج -->
+        <div class="container borders-between">
+
+            <!-- بداية قسم صورة المنتج وتفاصيله -->
+            <div class="row mb-5">
+                <div class="col-lg-5 offset-lg-1 col-md-10 offset-md-1 product-images-responsive">
+                    <div id="carousel-product-images" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/lacoste-t.jpg" alt="lacoste-t">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/lacoste-t1.jpg" alt="lacoste-t1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/lacoste-t2.jpg" alt="lacoste-t2">
+                            </div>
+                        </div>
+                        <div class="carousel-indicators custom-carousel-indicators">
+                            <img src="./images/lacoste-t.jpg" alt="lacoste-t" class="custom-carousel-indicators-primary active"
+                            data-bs-target="#carousel-product-images" data-bs-slide-to="0" class="custom-carousel-indicators-primary">
+                            <img src="./images/lacoste-t1.jpg" alt="lacoste-t1" 
+                            data-bs-target="#carousel-product-images" data-bs-slide-to="1" class="custom-carousel-indicators-primary">
+                            <img src="./images/lacoste-t2.jpg" alt="lacoste-t2" 
+                            data-bs-target="#carousel-product-images" data-bs-slide-to="2" class="custom-carousel-indicators-primary">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <form action="" id="form-product-selection" class="borders-between">
+                        <div class="row">
+                            <div class="product-category">
+                                ملابس رجالي
+                            </div>
+                            <div class="clearfix mb-3 mt-2">
+                                <h3 class="float-start">تي شيرت لاكوست طراز فاخر</h3>
+                                <div class="float-end price large">
+                                    55$
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                           <p class="product-description">
+                             تيشيرت عملي بخامة ناعمة تمتص العرق، مثالي للرياضة والحركة اليومية بأسلوب رياضي أنيق.
+                           </p>
+                        </div>
+                        <div class="row brand-and-rating align-items-center">
+                            <div class="col-6">
+                                <div class="brand">
+                                    الماركة: 
+                                    <img src="./images/Lacoste_logo_PNG2.png" alt="Lacoste_logo_PNG2" width="85">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="rating">
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row size-and-color">
+                            <div class="col-md-6">
+                                اختار المقاس: 
+                                <br>
+                                <div class="custom-size-and-color custom-size">
+                                    <label>
+                                        S 
+                                        <input type="radio" name="size" value="sm">
+                                    </label>
+                                </div>
+                                <div class="custom-size-and-color custom-size">
+                                    <label>
+                                        M 
+                                        <input type="radio" name="size" value="m">
+                                    </label>
+                                </div>
+                                <div class="custom-size-and-color custom-size">
+                                    <label>
+                                        L 
+                                        <input type="radio" name="size" value="l">
+                                    </label>
+                                </div>
+                                <div class="custom-size-and-color custom-size active">
+                                    <label>
+                                        XL 
+                                        <input type="radio" name="size" value="xl" checked>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                اختر اللون المناسب:
+                                <br>
+                                <div class="custom-size-and-color custom-color" style="background-color: orange;">
+                                    <label>
+                                        &nbsp;
+                                        <input type="radio" name="color" value="orange">
+                                    </label>
+                                </div>
+                                <div class="custom-size-and-color custom-color" style="background-color: blue;">
+                                    <label>
+                                        &nbsp;
+                                        <input type="radio" name="color" value="blue">
+                                    </label>
+                                </div>
+                                <div class="custom-size-and-color custom-color active" style="background-color: red;">
+                                    <label>
+                                        &nbsp;
+                                        <input type="radio" name="color" value="red" checked>
+                                    </label>
+                                </div>
+                                <div class="custom-size-and-color custom-color" style="background-color: green;">
+                                    <label>
+                                        &nbsp;
+                                        <input type="radio" name="color" value="green">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-quantity">
+                            العدد المطلوب: 
+                            <select name="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <div class="send-to-sala">
+                            <button type="submit" class="btn add-to-cart-btn custom-btn-warning custom-btn-with-icon">
+                                <span>
+                                    اضافة المنتج الى سلة الشراء
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </form> 
+
+                </div>
+            </div>
+            <!-- نهاية قسم صورة المنتج وتفاصيله -->
+
+            <!-- بداية قسم وصف المنتج -->
+            <div class="more-description">
+                <h3 class="heading heading-border-bottom heading-inline">
+                    وصف المنتج
+                </h3>
+                <p>
+                    تيشيرت لاكوست مصنوع من قطن عالي الجودة يوفر راحة مثالية وملمس ناعم طوال اليوم، بتصميم أنيق يحمل شعار لاكوست الأصلي ليمنحك إطلالة عصرية وكاجوال
+                </p>
+                <ul>
+                    <li>
+                        خامة قطنية عالية الجودة تمنحك راحة طوال اليوم
+                    </li>
+                    <li>
+                        تصميم أنيق بشعار لاكوست الأصلي يناسب الإطلالات الكاجوال
+                    </li>
+                    <li>
+                        سهل التنسيق ومناسب للاستخدام اليومي والمناسبات الخفيفة
+                    </li>
+                </ul>
+            </div>
+            <!-- نهاية قسم وصف المنتج -->
+
+            <!-- بداية قسم التعليقات  -->
+            <div class="row">
+                <div class="comments borders-between">
+                    <h3 class="heading heading-border-bottom heading-inline">
+                        التعليقات
+                    </h3>
+                    <div class="comment d-flex mb-3">
+                        <img src="./images/reviewer-2.png" alt="reviewer-2">
+                        <div>
+                            <h4>عبدالرحمن المغير</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star active"></i>
+                                <i class="fa-solid fa-star active"></i>
+                                <i class="fa-solid fa-star active"></i>
+                                <i class="fa-solid fa-star active"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>تيشيرت عملي وأنيق، مناسب للاستخدام اليومي وجودته واضحة من أول لبس.</p>
+                        </div>
+                    </div>
+                    <div class="comment d-flex">
+                        <img src="./images/reviewer-1.jpeg" alt="reviewer-1">
+                        <div>
+                            <h4>مهند النحاس</h4>
+                            <div class="rating">
+                                <i class="fa-solid fa-star active"></i>
+                                <i class="fa-solid fa-star active"></i>
+                                <i class="fa-solid fa-star active"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p>خامة ممتازة ومريحة جدًا، التصميم أنيق ويستاهل السعر.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- نهاية قسم التعليقات  -->
+
+            <!-- بداية قسم اقترحنا لك -->
+            <div class="row suggestions">
+                <h3 class="heading">اقترحنا لك</h3>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="card custom-thumbnail">
+                            <div class="overly">
+                                <button class="btn add-to-cart-btn">
+                                    اضافة الى العربة
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </button>
+                            </div>
+                            <img src="./images/adidas.png" alt="adidas">
+                            <div class="card-body p-2">
+                                <div class="clearfix">
+                                    <h4 class="float-start">طقم رياضة اديداس</h4>
+                                    <div class="price float-end">200$</div>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <button class="btn add-to-cart-btn d-block d-lg-none mx-auto w-100">
+                                    اضافة الى العربة
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="card custom-thumbnail">
+                            <div class="sale">
+                                50%
+                            </div>
+                            <div class="overly">
+                                <button class="btn add-to-cart-btn">
+                                    اضافة الى العربة
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </button>
+                            </div>
+                            <img src="./images/kappa.png" alt="kappa">
+                            <div class="card-body p-2">
+                                <div class="clearfix">
+                                    <h4 class="float-start">بنطلون اسود كابا</h4>
+                                    <div class="price float-end">120$</div>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                </div>
+                                <button class="btn add-to-cart-btn d-block d-lg-none mx-auto w-100">
+                                    اضافة الى العربة
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="card custom-thumbnail">
+                            <div class="overly">
+                                <button class="btn add-to-cart-btn">
+                                    اضافة الى العربة
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </button>
+                            </div>
+                            <img src="./images/lacoste-t.jpg" alt="lacoste">
+                            <div class="card-body p-2">
+                                <div class="clearfix">
+                                    <h4 class="float-start">تي شي لاكوست</h4>
+                                    <div class="price float-end">60$</div>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <button class="btn add-to-cart-btn d-block d-lg-none mx-auto w-100">
+                                    اضافة الى العربة
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 d-none d-lg-block">
+                        <div class="card custom-thumbnail">
+                            <div class="overly">
+                                <button class="btn add-to-cart-btn">
+                                    اضافة الى العربة
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </button>
+                            </div>
+                            <img src="./images/nike.png" alt="nike">
+                            <div class="card-body p-2">
+                                <div class="clearfix">
+                                    <h4 class="float-start">بنطلون نايك رياضي</h4>
+                                    <div class="price float-end">99$</div>
+                                </div>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-solid fa-star active"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <button class="btn add-to-cart-btn d-block d-lg-none mx-auto w-100">
+                                    اضافة الى العربة
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- نهاية قسم اقترحنا لك -->
+
+        </div>
+        <!-- نهاية قسم تصفح المنتج -->
+
+        <!-- بداية التذييل -->
+        <footer class="row">
+        <div id="brands-logo" class="text-center">
+            <span>المتجر وكيل معتمد لدى الشركات العالمية:</span>
+            <div class="img-container">
+                <img src="./images/kapa-logo.png" alt="kapa-logo">
+                <img src="./images/Lacoste_logo_PNG2.png" alt="Lacoste_logo">
+                <img src="./images/Logo_Adidas.png" alt="Logo_Adidas">
+                <img src="./images/nike-logo.png" alt="nike-logo">
+            </div>
+
+        </div>
+        <div id="footer-nav" class="text-center">
+            <div class="footer-logo">
+                <a href="./index.html">
+                    <img src="./images/logo.png" alt="شعار الموقع">
+                </a>
+            </div>
+            <div class="footer-nav-links d-none d-md-block">
+                <a href="./index.html">
+                    الصفحة الرئيسية
+                </a>
+                <a href="./search.html">
+                    البحث المتقدم
+                </a>
+                <a href="./contact.html">
+                    تواصل معنا
+                </a>
+            </div>
+            <div class="newsletter col-md-6 offset-md-3 d-flex align-items-center justify-content-center">
+                <form class="form-container">
+                    <label for="footer-input">اشترك بالنشرة البريدية وتابع احدث الاخبار.</label>
+                    <br>
+                    <div class="input-group">
+                        <input type="email" name="email" id="footer-input" class="form-control custom-form-control" 
+                        placeholder="البريد الإلكتروني">
+                        <button type="submit" class="btn custom-btn-warning">متابعة</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="footer-social-copyright">
+            <div class="container">
+                <div class="clearfix">
+                    <div id="copyright" class="float-start d-flex align-items-center justify-content-center"></div>
+                    <div class="icons-social float-end">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://web.telegram.org/k/" target="_blank"><i class="fa-brands fa-telegram"></i>
+                        </a>
+                        <a href="https://workspace.google.com/products/chat/" target="_blank"><i class="fa-brands fa-google-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+        <!-- نهاية التذييل -->
+
+    </div>
+
+</body>
+</html>

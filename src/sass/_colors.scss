@@ -1,0 +1,17 @@
+ @use "sass:color";
+ 
+$eneborley: #18df6b;
+$color-background: #fff;
+$color-stars: #EAE332;
+$color-primary: #3DB6F2;
+$color-danger: #EB3144;
+$color-gray: #8d8d8d;
+$color-footer: #4C616B;
+$color-solid: #d1d1d1;
+$color-overly-primary: color.adjust(lab(75.6% -12.99 -20.87 / 0.5));
+// hue brightness saturation
+$color-primary-darken: color.adjust($color-primary, $lightness: -10%);
+$color-primary-hover-lighten: color.adjust($color-primary, $lightness: 35%);
+$color-danger-darken: color.adjust($color-danger, $lightness: -10%);
+$color-gray-darken: color.adjust($color-gray, $lightness: -10%);
+$color-solid-darken: color.adjust($color-gray, $lightness: -5%);

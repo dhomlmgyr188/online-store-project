@@ -1,0 +1,47 @@
+@use './colors' as *;
+.custom-thumbnail{
+    border: 2px solid $color-solid;
+    padding: 8px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    @media (max-width: 767.98px){
+        margin-bottom: 40px;
+    }
+
+    img{
+        max-height: 250px;
+        width: 100%;
+        max-width: 250px;
+
+        @media (max-width: 767.98px){
+            height: 250px;
+            margin: auto;
+        }
+
+        @media (min-width: 767.98px) and (max-width: 991.98px){
+            height: 200px;
+        }
+    }
+
+    h4{
+        font-size: 18px;
+    }
+
+    &:hover{
+        border-color: $color-primary-darken;
+    }
+
+    .sale{
+        position: absolute;
+        left: 16px;
+        top: 14px;
+        padding: 5px 10px;
+
+        &::before{
+            content: "-";
+        }
+    }
+}
+

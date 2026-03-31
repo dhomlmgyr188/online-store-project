@@ -1,0 +1,44 @@
+@use './_colors' as *;
+
+.custom-table{
+    h4{
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    th{
+        color: $color-gray;
+        font-weight: normal;
+    }
+    th, td{
+        border-top: 1px solid $color-solid;
+        border-bottom: 1px solid $color-solid;
+        padding: 15px;
+        vertical-align: center;
+
+        &:first-child{
+            width: 50%;
+        }
+
+        &:not(:first-child){
+            text-align: center;
+        }
+
+    }
+
+    .custom-media{
+        img{
+            width: 80px;
+            height: 80px;
+            margin-left: 15px;
+            border: 1px solid $color-solid;
+        }
+    }
+
+    tfoot{
+        td{
+            border-bottom: none;
+            font-size: 150%;
+            font-weight: normal;
+        }
+    } 
+}
